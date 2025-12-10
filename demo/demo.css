@@ -1,0 +1,73 @@
+html {
+  scroll-behavior: smooth;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+.hero-parallax p {
+  font-size: 18px;
+}
+.buttons_wrap a {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding: 10px 25px;
+  background: #51a9f1;
+}
+.primary-btn:hover {
+  background: #fff;
+}
+.opacity9 {
+  opacity: 0.8;
+}
+.clinica-demo-wrap p {
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.clinica-demo-wrap a {
+  position: relative;
+}
+.live-demo {
+  padding: 10px 15px;
+  font-size: 18px;
+  color: #fff;
+  background: #51a9f1;
+  position: absolute;
+  z-index: 999;
+  opacity: 0;
+  left: -50px;
+  top: 50px;
+  -webkit-transition: all 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -moz-transition: all 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -o-transition: all 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -ms-transition: all 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
+  transition: all 0.4s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+.clinica-demo-wrap a:hover .live-demo {
+  left: 0;
+  opacity: 1;
+}
+.image-mouse-over {
+  overflow: hidden;
+}
+.clinica-demo-wrap a img {
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  transition: all 1.5s;
+}
+.clinica-demo-wrap a:hover img {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(1.1);
+}
+.clinica-demo-wrap .bestdoctor-box {
+  border: 1px solid #51a9f1;
+}
